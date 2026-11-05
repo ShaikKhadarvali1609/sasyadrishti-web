@@ -1,0 +1,34 @@
+# Environment & Secrets
+.env
+.env*
+!.env.example
+
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Databases (Preserve local SQLite records from being overwritten/committed)
+*.db
+*.sqlite
+*.sqlite3
+sasyadrishti.db
+backend/sasyadrishti.db
+
+# Mobile / Flutter
+mobile/.dart_tool/
+mobile/build/
+**/build/
+.gradle/
+*.apk
+*.aab
+
+# OS & Temp
+.DS_Store
+Thumbs.db
+*.log
+scratch/
+test_server.py
